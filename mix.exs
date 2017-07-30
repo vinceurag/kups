@@ -13,7 +13,8 @@ defmodule Kups.Mixfile do
 
     #  Docs
      name: "Kups",
-     source_url: "https://github.com/vinceurag/kups"
+     source_url: "https://github.com/vinceurag/kups",
+     extras: ["README.md"]
     ]
   end
 
