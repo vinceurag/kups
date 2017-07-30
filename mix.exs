@@ -40,10 +40,11 @@ defmodule Kups.Mixfile do
 
   defp package do
     [
-      contributors: ["Vince Urag"],
+      name: :kups,
+      maintainers: ["Vince Urag"],
       licenses: ["MIT"],
       links: %{github: "https://github.com/vinceurag/kups"},
-      files: ["lib", "mix.exs", "README*", "readme*", "LICENSE*", "license*"]
+      files: ["lib", "mix.exs", "README*",  "LICENSE*"]
     ]
   end
 end
